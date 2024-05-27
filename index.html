@@ -11,28 +11,26 @@
         안녕하세요 제 이름은 <strong>주소영</strong>입니다. 
     </div>
     <div>
-        HTML, CSS를 배워서 포트폴리오를 만드는게 목표입니다.
-    </div>
-    <div>
-        제가 듣고있는 강의를 추천드립니다.
-        <strong>코딩 알려주는 누나</strong> 추천드립니다.
+        음~ 제가 좋아하는 가수에 대해 소개해드릴게요! 
     </div>
 
-    <h2>좋아하는 음식</h2>
+    <h2>좋아하는 가수</h2>
         <ul>
-            <li>불고기 피자</li>
-            <li>회</li>
-            <li>자장면</li>
+            <li>AKMU</li>
+            <li>아이유</li>
+            <li>윤두준</li>
         </ul>
     
-        <h2>좋아하는 가수</h2>
-        <img src="https://cdn.gukjenews.com/news/photo/202309/2800754_2841898_314.png" width="300/"/>
-        <div>악동뮤지션</div>
-        <a href="https://youtu.be/3Hr35Kr2aXA?si=qUGHB_DAdakacrww">악동뮤지션 공연 보러가기</a>
+        <h2>AKMU</h2>
+        <img src="https://cdn.gukjenews.com/news/photo/202309/2800754_2841898_314.png" width="500/"/>
+        <div>AKMU</div>
+        <a href="https://youtu.be/3Hr35Kr2aXA?si=qUGHB_DAdakacrww">AKMU 공연 보러가기</a>
 
-        <h2>좋아하는 노래</h2>
+        <div><h2>좋아하는 노래</h2>(악뮤 노래 아님!)</div>
         <audio src="/assets/모든날모든순간_mr.mp3" controls></audio>
-        <a href="https://htmlreference.io/element/audio/">오디오 넣는법 보기</a>
+        <div>
+            <a href="https://ko.wikipedia.org/wiki/AKMU">악뮤 위키백과</a>
+        </div>
 
         <h2>인적사항</h2>
         <table border="1">
@@ -42,18 +40,28 @@
                     <th>답변</th>
                 </tr>
                 <tr>
-                    <td>사는곳?</td>
-                    <td>대~한~민~국!</td>
+                    <td>멤버 구성</td>
+                    <td>대한밈국의 남매 듀오로 이찬혁, 이수현으로 구성</td>
                 </tr>
                 <tr>
-                    <td>나이?</td>
-                    <td>비밀!</td>
+                    <td>장르</td>
+                    <td>댄스/일렉트로닉, K팝</td>
+                </tr>
+                <tr>
+                    <td>TMI</td>
+                    <td>이전 그룹명 : 악동뮤지션</td>
                 </tr>
             </tbody>
         </table>
-        <div>테이블 쓰는 방법을 모르겠다고? <u>그럼 검색해봐!</u></div>
+        <div>이래도 악뮤가 누근지 모르겠다고? <u>그럼 검색해봐!</u></div>
 
-        <h2>연락&문의</h2>
-        <input type="text" placeholder="궁금한 사항을 써주세요"/> <button>전송</button>
+        <h2>악뮤 검색하기</h2>
+        <input type="text" id="searchTxt" placeholder="입력하세요."/> <button onclick="searchBtn()">검색</button>
     </body>
 </html>
+
+<script>
+    function searchBtn() {
+        alert("힝 속았지?!");
+    }
+</script>
